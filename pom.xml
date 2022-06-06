@@ -9,8 +9,8 @@
         <maven.compiler.target>8</maven.compiler.target>
         <sonar.organization>examly-test</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.sources>react/source,springapp/src/main/,junit/source,junit,springapp/src/main,react/src,react,spring,,junit/updated/</sonar.sources>
-        <sonar.tests>react/test,springapp/src/test/,spring/src/test/,junit/tests,junit/test,springapp/src/test,react/tests,spring,,puppeteer/updated</sonar.tests>
+        <sonar.sources>react/source</sonar.sources>
+        <sonar.tests>react/test</sonar.tests>
         <sonar.java.binaries>target</sonar.java.binaries>
     </properties>
     <dependencies>
